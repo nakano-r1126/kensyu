@@ -1,0 +1,49 @@
+body{
+	background-color: white;
+}
+h1{
+	text-align: center;
+	color: #4682b4;
+	font-size: 50px;
+}
+.box1{
+	width: 400px; height: 180px;
+	border: solid 2px black;
+	line-height: 0;
+	background-color: white;
+	text-align: left;
+	padding: 10px;
+	margin: 40px auto;
+	border: 1px solid #555;
+	background-color: white;
+	border-style: groove;
+	border-color: white;
+	color: #077685;
+	font-weight: bold;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px #488a9e;
+	border: solid #4eb4c2 1px;
+	text-align: left;
+}
+input[type = "text"]{
+	width: 13em
+}
+.tb_01{
+	border-spacing: 60px 20px;
+	border-collapse: separate;
+	margin-left: auto;
+    margin-right: auto;
+}
+input[type = "button"]{
+	width: 80px;
+	margin-right: 1em;
+	box-shadow: 0px 1px 10px #488a9e;
+}
+.box3{
+	text-align: center;
+}
+user_name{
+	absolute;
+	right: 0px;
+	top: 0px"
+}
