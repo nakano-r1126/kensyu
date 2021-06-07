@@ -22,12 +22,20 @@ function fnc_submit(form){
 	}
 	form.submit();
 }
+window.onload = function(){
+const image_back = document.getElementById("image_back");
+const images = ["css/傘.jpg", "upload/チューリングラブ.jpg", "upload/ディスコミュ星人.jpg"];
+
+const imageNo = Math.floor( Math.random() * images.length)
+image_back.src = images[imageNo];
+}
 	</script>
 <link rel = "stylesheet" href = "css/Music_Login.css">
 <title>ログイン画面</title>
 </head>
 <body>
 	<div class = "div1">
+		<img src = "" id = "image_back">
 		<div class = "div2">
 			<h1>ログイン</h1>
 			<form name = "form1" action = "<%=request.getContextPath()%>/login_check" method = "post">
